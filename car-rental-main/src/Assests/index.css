@@ -1,0 +1,193 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: black;
+  color: #f6f1ec;
+}
+
+.reg {
+  color: rgba(55, 52, 50, 0.699);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-style: normal;
+  margin: 10;
+  font-weight: bolder;
+}
+
+/* mainPage Logo */
+.logo {
+  background: transparent;
+  width: 200px;
+  height: 60px;
+}
+
+/* login-logo */
+.logo2 {
+  background: transparent;
+  width: 250px;
+  height: 90px;
+}
+
+/* Layout */
+.ant-layout {
+  height: 100vh;
+  background: #000000;
+}
+.ant-layout-header {
+  background: rgba(0, 0, 0, 0) !important;
+  padding-right: 20px !important;
+  align-items: center !important;
+  justify-content: end !important;
+}
+.ant-modal-close-x {
+  color: white !important;
+}
+
+.ant-avatar {
+  justify-self: end !important;
+}
+
+.ant-layout-content {
+  height: 100% !important;
+  border-radius: 20px !important;
+  color: white !important;
+  padding: 10px;
+}
+.ant-layout-sider-children {
+  background: #000;
+}
+
+/* Input */
+.ant-input-search {
+  display: flex;
+  justify-content: center !important;
+}
+.ant-input-group-addon {
+  color: #f6f1ec !important;
+}
+.ant-form {
+  justify-content: center !important;
+  justify-items: center !important;
+}
+/* Breadcrumb */
+.bread-text-active {
+  color: #ffffff !important;
+  display: inline-block !important;
+  justify-content: center;
+  /* font-weight: 400; */
+}
+.ant-breadcrumb-separator {
+  color: white !important;
+}
+.bread-text {
+  color: #f83030 !important;
+}
+
+/* Form */
+.ant-form-item-required {
+  color: white !important;
+}
+
+.login-link {
+  color: hsl(26, 97%, 48%);
+}
+.login-link:hover {
+  color: #f6f1ec;
+}
+.login-form-forgot {
+  color: #fcfcff;
+}
+.ant-form {
+  /* padding-left: 100px; */
+  width: 400px;
+  /* padding-top: 250px; */
+}
+
+.login-form-forgot:hover {
+  color: #f8f8f8;
+}
+
+.login-form-button {
+  margin-right: 50px;
+}
+
+/* List */
+.ant-list-item {
+  color: #f6f1ec !important;
+}
+
+.ant-list-item-meta-title {
+  color: white !important;
+}
+.ant-list-item-main {
+  color: white !important;
+}
+.ant-list-item-meta-description {
+  color: white !important;
+}
+
+/* button */
+.ant-btn {
+  color: white !important;
+  background: #ef6a04;
+}
+
+/* Menu */
+
+.ant-menu {
+  background: #000;
+}
+
+.ant-menu-item-selected {
+  background: hsl(26, 97%, 48%) !important;
+}
+
+/* Modal */
+.ant-modal-content {
+  background: rgb(55, 52, 50) !important;
+}
+.ant-modal-title {
+  background: rgb(55, 52, 50) !important;
+  color: white !important;
+}
+
+.ant-spin-container {
+  color: white !important;
+}
+/* description */
+
+.ant-descriptions-item-content {
+  color: white !important;
+  border-color: white !important;
+}
+.ant-descriptions-row {
+  color: white !important;
+  background: rgb(27, 25, 25) !important;
+  border-color: white !important;
+}
+.ant-descriptions-view {
+  color: white !important;
+  border-color: white !important;
+}
+.ant-descriptions-item-label {
+  color: white !important;
+  border-color: rgb(71, 70, 70) !important;
+}
+.ant-descriptions {
+  color: white !important;
+  background: rgb(87, 85, 85) !important;
+}
+.booknow {
+  justify-content: center !important;
+}
+.ant-col {
+  text-align: center !important;
+}
+.ant-form-item-control-input {
+  justify-self: start;
+}
+.bs1 {
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
