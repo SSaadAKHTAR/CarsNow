@@ -1,4 +1,5 @@
 Car Rental Management System
+
 Overview
 The Car Rental Management System is a database project aimed at managing car rental operations for a car rental company. It provides functionalities for managing cars, customers, reservations, rental transactions, and administrative tasks.
 
